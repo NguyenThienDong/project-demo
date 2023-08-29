@@ -1,0 +1,65 @@
+.ant-upload-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.85);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+.ant-upload-hint {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.files-wrapper {
+  padding: 0 10px 10px;
+
+  .file {
+    z-index: 1000;
+    position: relative;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px dashed #4096ff;
+    padding: 6px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 19px;
+    align-items: center;
+
+    &-image {
+      height: 45px;
+    }
+
+    &-icon {
+      color: #141ed2;
+      font-size: 44px;
+    }
+
+    &-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 19px;
+      width: 80px;
+      text-align: center;
+    }
+
+    .icon-delete-file-upload {
+      position: absolute;
+      top: 6px;
+      right: 4px;
+      border: 1px solid #d9d9d9;
+      color: #ec1c2a;
+      padding: 2px;
+    }
+  }
+}

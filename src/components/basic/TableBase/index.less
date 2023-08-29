@@ -1,0 +1,44 @@
+.mb-table {
+  .ant-table-body {
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+      z-index: 100;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      z-index: 100;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+      z-index: 100;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #555;
+      border-radius: 4px;
+    }
+  }
+  .ant-table-thead {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .ant-table-cell {
+    font-size: 12px;
+  }
+  .table-empty {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+  }
+  .ant-table-content {
+    z-index: 10;
+  }
+}
